@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite UdemyUI]">
+  <test thread-count="5" name="C:\Users\Viktor_Kutsyk\IdeaProjects\UdemyUITestingProject(failed)">
+    <parameter name="db" value="value"/>
+    <classes>
+      <class name="UdemyLoginPageTest">
+        <methods>
+          <include name="shutDown"/>
+          <include name="setUp"/>
+          <include name="forgotPasswordLinkClick"/>
+          <include name="appleLogin"/>
+          <include name="facebookLogin"/>
+        </methods>
+      </class> <!-- UdemyLoginPageTest -->
+      <class name="UdemyMainPageButtonsValidation">
+        <methods>
+          <include name="signInButtonValidation"/>
+          <include name="closingWindows"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- UdemyMainPageButtonsValidation -->
+      <class name="UdemyShoppingCartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closingWindows"/>
+          <include name="addingCourseToCart"/>
+        </methods>
+      </class> <!-- UdemyShoppingCartTest -->
+    </classes>
+  </test> <!-- C:\Users\Viktor_Kutsyk\IdeaProjects\UdemyUITestingProject(failed) -->
+</suite> <!-- Failed suite [Test Suite UdemyUI] -->

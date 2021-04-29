@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite UdemyUI" >
+    <test verbose = "2" preserve-order = "true" name="C:\Users\Viktor_Kutsyk\IdeaProjects\UdemyUITestingProject" >
+      <parameter name="db" value="value"></parameter>
+        <classes>
+           <class name="UdemyLoginPageTest"></class>
+            <class name="UdemyMainPageButtonsValidation"></class>
+            <class name="UdemyMainPageTest"></class>
+            <class name="UdemySearcFieldsTest"></class>
+            <class name="UdemyShoppingCartTest"></class>
+        </classes>
+    </test>
+
+</suite>
